@@ -1,0 +1,212 @@
+
+a{
+    text-decoration: none;
+}
+p{
+   margin-bottom: 0px;
+}
+
+.left-sideber-instagram{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    height: 100vh;
+    border-right: 1px solid #dbdbdb;
+  
+    
+}
+
+.logo {
+    padding: 0px 5px 35px 5px;
+    cursor: pointer;
+    padding-top: 40px;
+}
+.all-icon{}
+.all-icon a {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    padding: 12px 5px;
+    transition: .3s;
+    border-radius: 5px;
+    margin: 7px 5px;
+}
+.all-icon a:hover{
+    background-color: #eeeded;
+    
+}
+.all-icon a i{
+    color: #000;
+    font-size: 25px;
+    
+}
+.all-icon a p{
+    color: #000;
+}
+.all-icon a p span{
+    font-weight: 500;
+    padding-left: 15px;
+    font-size: 15px;
+    color: #000;
+}
+.all-icon a p b{
+    padding-left: 15px;
+    font-size: 17px;
+}
+
+.all-icon a img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+/* .all-icon {
+    position: relative;
+} */
+.all-icon a:last-child {
+    position: relative;
+    top: 350px;
+}
+/* right side bar follow section here */
+.follwo-section{}
+.follwo-section .profile-photo-data{
+    display: flex;
+   justify-content: space-between;
+   padding: 10px 0px;
+}
+.follwo-section .profile-photo-data a img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.follwo-section .profile-photo-data a {
+    display: flex;
+    align-items: center;
+    color: #1da1f7;
+    font-size: 13px;
+}
+.follwo-section .profile-photo-data a .profile-data{}
+.follwo-section .profile-photo-data a .profile-data h6{
+    margin-bottom: 0px;
+    color: #000;
+    text-transform: lowercase;
+    font-size: 14px;
+}
+.follwo-section .profile-photo-data a .profile-data small{
+    margin-bottom: 0px;
+    color: #000;
+    font-size: 12px;
+}
+.porfilo-photo-fotter-button{}
+.porfilo-photo-fotter-button a{
+    font-size: 14px;
+    color: #cecece;
+    transition: .3s;
+}
+.porfilo-photo-fotter-button a:hover{
+    text-decoration: underline;;
+}
+.porfilo-photo-fotter-button-copyright p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #cecece;
+    margin-top: 15px;
+}
+/* close the right follow section heare */
+
+
+/* stard the middle content section */
+.timeline-header{}
+.all-header-item{
+    display: flex;
+    justify-content: space-between;
+}
+.all-header-item .profile{
+    text-align: center;
+}
+.all-header-item .profile a{}
+.all-header-item .profile  a img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: linear-gradient(353deg, rgba(211,0,197,1) 0%, rgba(255,195,0,1) 19%, rgba(211,0,197,1) 39%, rgba(255,195,0,1) 57%, rgba(235,106,90,1) 86%);
+    border: 3px solid transparent;
+}
+.all-header-item .profile  h6{
+    font-size: 13px;
+    font-weight: 500;
+    overflow: hidden;
+
+}
+
+/* instra goram time line clone here  */
+
+.instragram-timeline-posst{
+    
+}
+.instragram-timeline-posst .user-post{}
+.instragram-timeline-posst .user-post .user-post-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+
+}
+.user-post-header-left{}
+.user-post-header-left a{
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+.user-post-header-left a img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+
+}
+.user-post-header-left a h6 {
+    margin-bottom: 0px;
+    color: #000;
+    font-size: 14px;
+    margin: 0px 8px;
+}
+.user-post-header-left a small{
+    margin-bottom: 0px;
+    color: #000;
+    font-size: 12px;
+}
+.user-post-header-right{}
+.user-post-header-right a{
+margin-bottom: 0px;
+}
+.user-post-header-right a i{
+    font-size: 15px;
+    color: black;
+}
+.bottom-like-coment-share-left{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 0px;
+}
+
+.bottom-like-coment-share-left a i {
+    padding-right: 10px;
+    color: #000000;
+    font-size: 20px;
+}
+.user-post-fotter{}
+.user-post-fotter input {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    padding: 7px 2px;
+}
+::placeholder{
+    font-size: 14px;
+}
+
+
